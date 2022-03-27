@@ -497,8 +497,8 @@ summary {
   padding-bottom: 200px;
   text-align: center;
   background-color: #C4C4C4;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero-img-opt.jpeg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-img-opt.jpeg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-img-opt.jpeg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-img-opt.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1091,7 +1091,7 @@ summary {
 
 .form-field__checkbox:checked + .form-field__icon-policy {
   background-color: #2196F3;
-  background-image: url("../../images/repeta-icon-opt.svg");
+  background-image: url("../images/repeta-icon-opt.svg");
   background-size: contain;
   background-origin: border-box;
   background-repeat: no-repeat;
