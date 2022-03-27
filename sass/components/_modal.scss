@@ -220,10 +220,7 @@
 
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-	
-}
-
-.form-field__checkbox:checked + .form-field__icon-policy{
+	.form-field__checkbox:checked + &{
 	background-color: $conditions-color;
 	background-image: url('../../images/repeta-icon-opt.svg');
 	background-size: contain;
@@ -232,4 +229,6 @@
 
 	border-radius: 2px;
 	border-color: $conditions-color;
+	}
 }
+
