@@ -11,6 +11,7 @@
 
 .site-nav {
 	display: flex;
+	@extend %list;
     
     &__item{
 	position: relative;
