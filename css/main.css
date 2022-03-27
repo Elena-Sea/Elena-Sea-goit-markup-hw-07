@@ -1091,7 +1091,7 @@ summary {
 
 .form-field__checkbox:checked + .form-field__icon-policy {
   background-color: #2196F3;
-  background-image: url(../../images/repeta-icon.svg);
+  background-image: url("../../images/repeta-icon-opt.svg");
   background-size: contain;
   background-origin: border-box;
   background-repeat: no-repeat;
