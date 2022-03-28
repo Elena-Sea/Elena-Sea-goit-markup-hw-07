@@ -4,10 +4,8 @@
 	padding-bottom: 0;
 }
 
-.container--hides-title {
-    &__title {
-        @extend %visually-hidden;
-    }
+.container__title--hidden {
+    @extend %visually-hidden;
 }
 
 .features-list {
@@ -26,7 +24,7 @@
 	}	
 }
 
-.feature-card__icon {
+.feature-card__box {
 	
 	@extend %flex;
 

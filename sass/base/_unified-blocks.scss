@@ -6,19 +6,17 @@
     
 }
 
-
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
 
-.link {
-	text-decoration: none;
-	font-style:normal;
-	color: $text-color;
-}
-
 .container--center {
 	text-align: center;
+}
+
+.container__title{
+	@extend %section-title;
+	@extend %title;
 }

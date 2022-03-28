@@ -67,22 +67,17 @@
 	margin-right: 30px;
     }
 
-    &__mail,
-    &__tel {
+    &__link {
         display: flex;
         align-items: center;
-
     }
 
-    &__mail:hover,
-    &__tel:hover,
-    &__mail:focus,
-    &__tel:focus {
+    &__link:focus,
+    &__link:hover {
         color: $conditions-color;
     } 
 
-    &__envelope,
-    &__smartphone {
+    &__icon {
 	margin-right: 10px;
 	
 	fill: currentColor;
