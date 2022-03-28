@@ -1,12 +1,10 @@
 /* features */
 
-.our-features {
-    @extend %section;
+.section--no-bottom-marg {
 	padding-bottom: 0;
 }
 
-.features {
-	@extend %container;
+.container--hides-title {
     &__title {
         @extend %visually-hidden;
     }
@@ -14,10 +12,9 @@
 
 .features-list {
     display: flex;
-    @extend %list;
 }
 
-.feature-item.title {
+.feature-card__title {
 	margin-bottom: 10px;
     @extend %title;
 }

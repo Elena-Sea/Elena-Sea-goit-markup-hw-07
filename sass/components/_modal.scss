@@ -16,9 +16,7 @@
 
 .modal {
 	position: absolute;
-	/* display: flex;
-	justify-content: flex-end;
-	align-items: flex-start; */
+
 	padding: 40px;
 	width: 528px;
 	height: 581px;
@@ -44,9 +42,9 @@
 	position:absolute;
 	top: 8px;
 	right: 8px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	
+	@extend %flex;
+	
 	width: 30px;
 	height: 30px;
 	padding: 0;
@@ -60,6 +58,7 @@
     &:focus  {
 	fill: $conditions-color;
     }
+	cursor: pointer;
 }
 
 
@@ -132,6 +131,7 @@
 
 
 .textarea__box {
+	display: block;
 	resize: none;
 	height: 120px;
 	padding: 12px 16px;

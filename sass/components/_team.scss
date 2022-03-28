@@ -1,13 +1,6 @@
 
-.our-team {
+.section--another-bkgd {
 	background-color: $background-color-blocks;
-
-	@extend %section;
-}
-
-.team{
-	text-align: center;
-	@extend %container;
 }
 
 .team__title{
@@ -21,7 +14,6 @@
 
 .team-members {
 	display: flex;
-	@extend %list;
 }
 
 .member__image {

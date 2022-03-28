@@ -1,11 +1,3 @@
-.our-occupations {
-	@extend %section;
-}
-
-.occupations {
-    @extend %container;
-    text-align: center;
-}
 
 .occupations__title {
     @extend %title;
@@ -14,7 +6,6 @@
 
 .occupations__list {
 	display: flex;
-    @extend %list;
 }
 
 .occupation__image {
